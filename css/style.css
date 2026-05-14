@@ -1033,8 +1033,8 @@ a:hover { opacity: .7; }
 .member:hover { transform: none; box-shadow: none; }
 
 .member__photo {
-  width: 96px;
-  height: 96px;
+  width: 200px;
+  height: 200px;
   margin: 0 0 32px;
   border-radius: 0;
   background:
