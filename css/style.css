@@ -1043,6 +1043,7 @@ a:hover { opacity: .7; }
   align-items: center;
   justify-content: center;
   position: relative;
+  overflow: hidden;
 }
 .member__photo::after {
   content: "";
@@ -1050,6 +1051,14 @@ a:hover { opacity: .7; }
   inset: -8px;
   border: 1px solid var(--c-line-soft);
   pointer-events: none;
+}
+.member__photo--has-image { background: none; }
+.member__photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 30%;
+  display: block;
 }
 .member__initial {
   font-family: var(--f-en);
